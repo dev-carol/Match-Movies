@@ -5,7 +5,7 @@ const Navbar = () => {
     return (
         <nav id="navbar">
         <h2>
-          <Link to="/"><BiCameraMovie/>Doramas Match</Link>
+          <Link to="/"><BiCameraMovie/>Match Movies</Link>
         </h2>
         <form>
             <input type="text" placeholder="Busque um filme"/>

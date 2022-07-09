@@ -2,9 +2,8 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import App from './App'
-import Dorama from './pages/Doramas/Dorama'
-
 import Home from './pages/Home/Home'
+import Movies from './pages/Movies/Movies'
 import Search from './pages/Search/Search'
 
 
@@ -14,7 +13,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Routes>
       <Route element={<App/>}>
         <Route path='/' element={<Home/>}/>
-        <Route path='dorama/:id' element={<Dorama/>}/>
+        <Route path='movie/:id' element={<Movies/>}/>
         <Route path='search' element={<Search/>}/>
 
 
